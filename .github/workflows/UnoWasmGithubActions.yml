@@ -8,7 +8,7 @@ env:
   AZURE_WEBAPP_PACKAGE_PATH: UnoWasmGithubActions.Wasm/publish
   AZURE_WEBAPP_PUBLISH_PROFILE: ${{ secrets.UnoWasmGithubActions_a060 }}
   CONFIGURATION: Release
-  WORKING_DIRECTORY: UnoWasmGithubActions.Wasm
+  WORKING_DIRECTORY: UnoWasmGithubActions\UnoWasmGithubActions.Wasm
 jobs:
   build-and-deploy:
     runs-on: windows-latest
